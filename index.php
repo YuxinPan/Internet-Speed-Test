@@ -49,7 +49,7 @@ $_SESSION['uploadSpeed']="";
 if ($s!=1)
   echo"Speed Test by Yuxin Pan automatically scales the data transferred according to your bandwidth to meet high accuracy and save your time. It works on all devices and requires neither Flash nor Java.";
 
-?></p></div></li></ul></div></div><div class=header-address><ul><li><strong><a href=test.php><?php
+?></p></div></li></ul></div></div><div class=header-address><ul><li><strong><a href=speedTest.php><?php
   
 $space="";
   

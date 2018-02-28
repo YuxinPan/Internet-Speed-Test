@@ -105,7 +105,7 @@ for ($i=1;$i<=$n;$i++){  // prepare string to be sent
 	$text=$text.'<input type="text" name="id'.$i.'" value="'.randomString(500000).'" />';
 }
 
-$text='<div style="display:none;">'.randomString($n*256000).'</div> '.'<div style="display:none;"><form id="speedtesting" method="POST" action="test.php?pg=result">'.$text.'</form><script>document.getElementById("speedtesting").submit();</script></div></body></html> ';
+$text='<div style="display:none;">'.randomString($n*256000).'</div> '.'<div style="display:none;"><form id="speedtesting" method="POST" action="speedTest.php?pg=result">'.$text.'</form><script>document.getElementById("speedtesting").submit();</script></div></body></html> ';
 $time = explode(" ",microtime());
 echo $text;
 flush();
